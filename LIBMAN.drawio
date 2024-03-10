@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-03-10T15:46:17.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="r6WNUNRESl07Gs5yW9JT" version="22.1.21" type="device">
+  <diagram name="Page-1" id="q3lWyRQuZiKdOxPQM3_o">
+    <mxGraphModel dx="1637" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NVDfDR73VaQflcr05osB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVDfDR73VaQflcr05osB-1" target="NVDfDR73VaQflcr05osB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVDfDR73VaQflcr05osB-1" target="NVDfDR73VaQflcr05osB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVDfDR73VaQflcr05osB-1" target="NVDfDR73VaQflcr05osB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NVDfDR73VaQflcr05osB-1" target="NVDfDR73VaQflcr05osB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-1" value="USER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-3" value="BORROW HISTORY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-4" value="FINES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-5" value="PROFILE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-6" value="BOOKS HE REQUESTED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-11" value="DATABASE DESIGN&amp;nbsp;&lt;br&gt;STUDENT&lt;br&gt;&lt;br&gt;PERSONAL DETAILS:&lt;br&gt;NAME&lt;br&gt;ROLL NO&lt;br&gt;MOBILE NO&lt;br&gt;ACADEMIC DETAILS:&lt;br&gt;YEAR&lt;br&gt;BRANCH&lt;br&gt;LIBRARY INFO:&lt;br&gt;BOOKS-BORROWED: [B-TRASAC_ID]&lt;br&gt;FINES : [FINE_ID]" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="770" y="80" width="370" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-13" value="DATABASE DESIGN&amp;nbsp;&lt;br&gt;FINES&lt;br&gt;&lt;br&gt;FINE_ID:&amp;nbsp;&lt;br&gt;TRANSACTION_ID:&lt;br&gt;STUDENT_ID:&lt;br&gt;BOOK_ID:&lt;br&gt;BORROWED_DATE:&lt;br&gt;FINE_AMOUNT:&lt;br&gt;STATUS: PAID/UNPAID" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="80" width="370" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-15" value="DATABASE DESIGN&amp;nbsp;&lt;br&gt;BOOKS&lt;br&gt;BOOK-META-DATA:{&lt;br&gt;BOOK_ID:&lt;br&gt;BOOK_NAME:&lt;br&gt;AUTHOR:&lt;br&gt;GENRE:&lt;br&gt;PUBLISHER:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PUBLICATION_DATE:&lt;br&gt;ISBN:&lt;br&gt;}&lt;br&gt;QUANTITY_AVAILABLE:&lt;br&gt;STATUS: AVAILABLE/CHECKOUT/RESERVED&lt;br&gt;IMG: LINK&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="771" y="370" width="381" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-16" value="DATABASE DESIGN&amp;nbsp;&lt;br&gt;BOOK TRANSACTION&lt;br&gt;&lt;br&gt;B-TRANSAC-ID:&lt;br&gt;USER-ID:&lt;br&gt;BOOK-ID:&lt;br&gt;CHECKOUTDATE:&lt;br&gt;DUE-DATE:&lt;br&gt;RETURN DATE:&lt;br&gt;STATUS: PENDING/ RETURNED / OVERDUE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="370" width="370" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDfDR73VaQflcr05osB-17" value="DATABASE DESIGN&amp;nbsp;&lt;br&gt;LIBRARIAN&lt;br&gt;&lt;br&gt;PERSONAL DETAILS:&lt;br&gt;NAME:&lt;br&gt;ID:&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="80" width="370" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
